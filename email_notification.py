@@ -52,7 +52,7 @@ def load_email_config(path:str = "./email_config.ini"):
     
 if __name__ == '__main__':
     'Sample code to load email configurations and send an automatic email.'
-    email_config = load_email_config("./email_config.in")
+    email_config = load_email_config("./email_config.ini")
     
     email_subject = 'Testing Configurations'
     email_string = 'This is a test email sent from python'
