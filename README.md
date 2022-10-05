@@ -1,7 +1,7 @@
 # Python-Email-Notification
 Simple and handy functions for sending email notifications when simulations are done running.
 
-To use this code with a gmail account, you must manually [allow a less secure access](https://myaccount.google.com/lesssecureapps). By turning the switch ON you will be giving Python access to your account. If you don’t change this setting, when running the code later, you’ll get an error message like below:
+To use this code with a gmail account, you must set a 2-step verification and then generate an App Password, for more information refer to [Create & use App Passwords](https://support.google.com/accounts/answer/185833). The App Password is the 16-character code in the yellow bar on your device. Copy this password into the email_config.ini file. If you don’t change this setting, when running the code later, you’ll get an error message like below:
 
     SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials - gsmtp')
 
